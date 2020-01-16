@@ -4,6 +4,7 @@ RUN apt-get update -y
 RUN apt-get install gcc -y
 RUN apt-get install clang -y 
 RUN apt-get install man -y 
+RUN apt-get install make -y 
 
 
 RUN rm /etc/dpkg/dpkg.cfg.d/excludes
