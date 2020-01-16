@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 RUN apt-get update -y 
 RUN apt-get install gcc -y
 RUN apt-get install clang -y 
-RUN apt-get install man 
+RUN apt-get install man -y 
 
 
 RUN rm /etc/dpkg/dpkg.cfg.d/excludes
